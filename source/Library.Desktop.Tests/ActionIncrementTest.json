@@ -1,0 +1,135 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "GameObject"
+  },
+  "IntA": {
+    "type": "integer",
+    "value": 0
+  },
+  "IntB": {
+    "type": "integer",
+    "value": 0
+  },
+  "IntC": {
+    "type": "integer",
+    "value": 0
+  },
+  "FloatA": {
+    "type": "float",
+    "value": 0
+  },
+  "FloatB": {
+    "type": "float",
+    "value": 0
+  },
+  "FloatC": {
+    "type": "float",
+    "value": 0
+  },
+  "Actions": {
+    "type": "table[]",
+    "value": [
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment IntA by default"
+          },
+          "Target": {
+            "type": "string",
+            "value": "IntA"
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment IntB by int"
+          },
+          "Target": {
+            "type": "string",
+            "value": "IntB"
+          },
+          "Step": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment IntC by float"
+          },
+          "Target": {
+            "type": "string",
+            "value": "IntC"
+          },
+          "Step": {
+            "type": "float",
+            "value": 1.5
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment FloatA by default"
+          },
+          "Target": {
+            "type": "string",
+            "value": "FloatA"
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment FloatB by int"
+          },
+          "Target": {
+            "type": "string",
+            "value": "FloatB"
+          },
+          "Step": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "ActionIncrement",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Increment FloatC by float"
+          },
+          "Target": {
+            "type": "string",
+            "value": "FloatC"
+          },
+          "Step": {
+            "type": "float",
+            "value": 1.5
+          }
+        }
+      }
+    ]
+  }
+}

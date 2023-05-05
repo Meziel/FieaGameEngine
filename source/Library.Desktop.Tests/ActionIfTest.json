@@ -1,0 +1,65 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "GameObject"
+  },
+  "A": {
+    "type": "integer",
+    "value": 0
+  },
+  "Actions": {
+    "type": "table[]",
+    "value": [
+      {
+        "type": "table",
+        "class": "ActionIf",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "ActionIf1"
+          },
+          "Condition": {
+            "type": "bool",
+            "value": true
+          },
+          "IfBlock": {
+            "type": "table",
+            "class": "ActionIncrement",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Increment1"
+              },
+              "Target": {
+                "type": "string",
+                "value": "A"
+              },
+              "Step": {
+                "type": "integer",
+                "value": 1
+              }
+            }
+          },
+          "ElseBlock": {
+            "type": "table",
+            "class": "ActionIncrement",
+            "value": {
+              "Name": {
+                "type": "string",
+                "value": "Increment1"
+              },
+              "Target": {
+                "type": "string",
+                "value": "A"
+              },
+              "Step": {
+                "type": "integer",
+                "value": -1
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

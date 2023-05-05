@@ -1,0 +1,53 @@
+{
+  "Name": {
+    "type": "string",
+    "value": "Monster1"
+  },
+  "Transform": {
+    "type": "rawtable",
+    "class": "Transform",
+    "value": {
+      "Position": {
+        "type": "vector",
+        "value": [ 1, 2, 3, 0 ]
+      },
+      "Rotation": {
+        "type": "vector",
+        "value": [ 1, 2, 3, 0 ]
+      },
+      "Scale": {
+        "type": "vector",
+        "value": [ 1, 2, 3, 0 ]
+      }
+    }
+  },
+  "Health": {
+    "type": "integer",
+    "value":  100
+  },
+  "Children": {
+    "type": "table[]",
+    "value": [
+      {
+        "type": "table",
+        "class": "GameObject",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Child1"
+          }
+        }
+      },
+      {
+        "type": "table",
+        "class": "GameObject",
+        "value": {
+          "Name": {
+            "type": "string",
+            "value": "Child2"
+          }
+        }
+      }
+    ]
+  }
+}

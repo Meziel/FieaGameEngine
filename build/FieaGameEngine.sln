@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Shared", "..\source\Library.Shared\Library.Shared.vcxitems", "{D492062E-1B01-43C3-A2E3-7095411BFBB0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Desktop", "..\source\Library.Desktop\Library.Desktop.vcxproj", "{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library.Desktop.Tests", "..\source\Library.Desktop.Tests\Library.Desktop.Tests.vcxproj", "{43BA663B-0720-4B8B-B4E9-1F7263D3E090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Debug|x64.ActiveCfg = Debug|x64
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Debug|x64.Build.0 = Debug|x64
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Debug|x86.Build.0 = Debug|Win32
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Release|x64.ActiveCfg = Release|x64
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Release|x64.Build.0 = Release|x64
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Release|x86.ActiveCfg = Release|Win32
+		{EC516B1F-5FC8-47AA-A63C-C356CFDDEA5B}.Release|x86.Build.0 = Release|Win32
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Debug|x64.ActiveCfg = Debug|x64
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Debug|x64.Build.0 = Debug|x64
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Debug|x86.ActiveCfg = Debug|Win32
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Debug|x86.Build.0 = Debug|Win32
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Release|x64.ActiveCfg = Release|x64
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Release|x64.Build.0 = Release|x64
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Release|x86.ActiveCfg = Release|Win32
+		{43BA663B-0720-4B8B-B4E9-1F7263D3E090}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88E29CAE-503F-484C-AC51-4DB62B6781DF}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\source\Library.Shared\Library.Shared.vcxitems*{d492062e-1b01-43c3-a2e3-7095411bfbb0}*SharedItemsImports = 9
+		..\source\Library.Shared\Library.Shared.vcxitems*{ec516b1f-5fc8-47aa-a63c-c356cfddea5b}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
